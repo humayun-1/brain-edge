@@ -8,7 +8,7 @@ export default function Hero() {
         <div className="flex shrink-0 rounded-2xl border border-solid border-white border-opacity-10 h-[295px] w-[181px] border-l-0 rounded-l-none absolute left-0" />
         <div className="hidden lg:flex shrink-0 mt-28 max-w-full rounded-2xl border border-solid border-[#F9D342]/80 border-opacity-80 h-[264px] w-[264px] max-lg:mt-10 absolute left-[8%]" />
         <div className="flex flex-col mt-6 max-lg:max-w-full">
-          <div className="flex flex-col w-full text-center text-white max-lg:max-w-full">
+          <div className="flex flex-col w-full text-center text-white max-lg:max-w-full px-5">
             <h1 className="text-6xl font-semibold max-lg:max-w-full max-lg:text-4xl">
               Empowering your brand in <br /> the digital universe
             </h1>
