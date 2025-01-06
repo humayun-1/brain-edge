@@ -2,20 +2,58 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+    font-family: "Montserrat";
+    src: url("./font/Montserrat.ttf");
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root{
+    font-family: "Montserrat";
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+/* Custom styles for Swiper */
+.testimonials-swiper {
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.testimonials-swiper .swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  background: rgba(251, 191, 36, 0.3);
+  opacity: 1;
+}
+
+.testimonials-swiper .swiper-pagination-bullet-active {
+  background: rgb(251, 191, 36);
+}
+
+.testimonials-swiper .swiper-button-prev,
+.testimonials-swiper .swiper-button-next {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(251, 191, 36, 0.3);
+  border-radius: 50%;
+}
+
+.testimonials-swiper .swiper-button-prev:hover,
+.testimonials-swiper .swiper-button-next:hover {
+  background-color: rgba(251, 191, 36, 0.5);
+}
+
+.testimonials-swiper .swiper-button-prev::after,
+.testimonials-swiper .swiper-button-next::after {
+  font-size: 20px;
+}
+
+[data-overlay-container] {
+  height: 100%;
+}
+
+[data-drawer-content] {
+  touch-action: none;
+}
+
+[data-drawer-overlay] {
+  backdrop-filter: blur(4px);
 }
