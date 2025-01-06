@@ -17,9 +17,11 @@ export default function Header() {
             <a href="#services" className="self-stretch my-auto hover:text-amber-300">Services</a>
             <a href="#testimonials" className="self-stretch my-auto hover:text-amber-300">Testimonials</a>
           </nav>
-          <button className="self-stretch px-7 py-4 my-auto font-bold text-amber-300 rounded-lg border-2 border-amber-300 border-solid max-lg:px-5 hover:bg-amber-300 hover:text-neutral-800">
-            Contact Us
-          </button>
+          <a href="#contact">
+            <button className="self-stretch px-7 py-4 my-auto font-bold text-amber-300 rounded-lg border-2 border-amber-300 border-solid max-lg:px-5 hover:bg-amber-300 hover:text-neutral-800">
+              Contact Us
+            </button>
+          </a>
         </div>
         <MobileMenu />
       </div>

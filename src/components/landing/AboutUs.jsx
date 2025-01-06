@@ -2,7 +2,7 @@ import * as React from "react";
 
 export default function AboutUs() {
   return (
-    <div className="flex overflow-hidden flex-col justify-center px-24 w-full text-white max-lg:px-5 max-lg:max-w-full container mx-auto">
+    <div id="about" className="flex overflow-hidden flex-col justify-center px-24 w-full text-white max-lg:px-5 max-lg:max-w-full container mx-auto">
       <div className="lg:grid grid-cols-2 flex flex-wrap gap-10 items-center w-full max-lg:max-w-full">
         <div className="flex flex-col grow shrink self-stretch my-auto lg:pr-[8rem]">
           <h2 className="text-3xl font-bold max-lg:max-w-full">About Us</h2>

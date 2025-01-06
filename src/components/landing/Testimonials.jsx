@@ -33,7 +33,7 @@ export default function Testimonials() {
   ];
 
   return (
-    <div className="flex flex-col justify-center py-8 lg:py-20 pr-24 pl-24 w-full max-lg:px-5 max-lg:max-w-full">
+    <div id="testimonials" className="flex flex-col justify-center py-8 lg:py-20 pr-24 pl-24 w-full max-lg:px-5 max-lg:max-w-full">
       <div className="flex flex-col w-full max-lg:max-w-full">
         <div className="flex flex-col self-center max-w-full text-center text-white w-[548px]">
           <h2 className="gap-2.5 self-stretch p-2.5 w-full text-3xl font-semibold whitespace-nowrap min-h-[59px] max-lg:max-w-full">

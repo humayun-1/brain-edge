@@ -81,7 +81,7 @@ export default function LandingPage() {
           </div>
         </div>
         <AboutUs />
-        <div className="flex flex-col justify-center px-24 py-8 lg:py-20 w-full min-h-[979px] max-lg:px-5 max-lg:max-w-full container mx-auto">
+        <div id="services" className="flex flex-col justify-center px-24 py-8 lg:py-20 w-full min-h-[979px] max-lg:px-5 max-lg:max-w-full container mx-auto">
           <div className="flex flex-col max-w-full">
             <div className="flex flex-col self-center max-w-full text-center text-white w-[548px]">
               <div className="gap-2.5 self-stretch p-2.5 w-full text-3xl font-semibold min-h-[59px] max-lg:max-w-full">
@@ -138,7 +138,7 @@ export default function LandingPage() {
             <WorkProcess />
           </div>
         </div>
-        <div className="w-full max-lg:max-w-full">
+        <div className="w-full max-lg:max-w-full" id="contact">
           <div className="flex gap-5 max-lg:flex-col">
             <div className="flex flex-col max-lg:ml-0 max-lg:w-full mx-auto">
               <div className="flex flex-col justify-center px-24 py-8 lg:py-20 w-full max-lg:px-5 max-lg:max-w-full">

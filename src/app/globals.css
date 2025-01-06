@@ -9,6 +9,7 @@
 
 :root{
     font-family: "Montserrat";
+    scroll-behavior: smooth;
 }
 
 /* Custom styles for Swiper */
