@@ -3,13 +3,24 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "Montserrat";
-    src: url("./font/Montserrat.ttf");
+  font-family: "Montserrat";
+  src: url("./font/Montserrat.ttf");
 }
 
-:root{
-    font-family: "Montserrat";
-    scroll-behavior: smooth;
+:root {
+  font-family: "Montserrat";
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+  background-color: #21201e;
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(#f9d341 5%, #21201e);
+  border-radius: 18px;
 }
 
 /* Custom styles for Swiper */
