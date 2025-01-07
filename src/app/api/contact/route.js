@@ -23,7 +23,7 @@ export async function POST(req) {
   });
 
   const mailOptions = {
-    to: "hr@brainedge.dev",
+    from: "hr@brainedge.dev",
     to: "hr@brainedge.dev",
     subject: `New Contact Form Submission from ${fullName}`,
     text: `Full Name: ${fullName}\nEmail: ${email}\n\nMessage:\n${message}`,
