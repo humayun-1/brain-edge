@@ -5,18 +5,26 @@ dotenv.config();
 export async function POST(req) {
   const { fullName, email, message } = await req.json();
 
+  // const transporter = nodemailer.createTransport({
+  //   service: "gmail",
+  //   auth: {
+  //     user: "muhammadhumayunjawad@gmail.com",
+  //     pass: process.env.NODEMAILER_AUTH_PASS,
+  //   },
+  // });
   const transporter = nodemailer.createTransport({
-    service: "gmail",
+    // host: "smpt.hostinger.com",
+    host: "smtp.hostinger.com",
+    port: 465,
     auth: {
-      user: "muhammadhumayunjawad@gmail.com",
+      user: "hr@brainedge.dev",
       pass: process.env.NODEMAILER_AUTH_PASS,
     },
   });
 
   const mailOptions = {
-    from: email,
     to: "hr@brainedge.dev",
-    // to: "muhammadhumayunjawad@gmail.com",
+    to: "hr@brainedge.dev",
     subject: `New Contact Form Submission from ${fullName}`,
     text: `Full Name: ${fullName}\nEmail: ${email}\n\nMessage:\n${message}`,
   };
