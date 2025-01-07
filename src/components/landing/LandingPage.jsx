@@ -65,6 +65,7 @@ export default function LandingPage() {
             <Marquee
               gradient={false}
               speed={50}
+              autoFill
               pauseOnHover={true}
               className="mt-10 w-full text-6xl whitespace-nowrap max-lg:max-w-full max-lg:text-4xl"
             >

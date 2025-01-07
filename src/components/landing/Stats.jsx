@@ -8,7 +8,7 @@ const stats = [
 
 export default function Stats() {
   return (
-    <div className="flex overflow-hidden flex-col justify-center px-28 py-8 lg:py-20 w-full text-white max-lg:px-5 max-lg:max-w-full">
+    <div className="container mx-auto flex overflow-hidden flex-col justify-center px-28 py-8 lg:py-20 w-full text-white max-lg:px-5 max-lg:max-w-full">
       <div className="flex flex-col w-full max-lg:max-w-full">
         <div className="flex gap-5 lg:flex-row flex-col items-center w-full max-lg:flex-wrap max-lg:max-w-full justify-between">
           {stats.map((stat, index) => (

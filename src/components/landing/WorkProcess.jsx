@@ -28,7 +28,7 @@ export default function WorkProcess() {
     <div className="flex flex-col gap-[3rem] grow shrink self-stretch my-auto min-w-[240px] w-[517px] max-lg:max-w-full relative">
       <div className="absolute top-0 bottom-[1rem] left-[27.5px] border-l z-[1]"></div>
       {processSteps.map((step, index) => (
-        <div key={index} className="flex gap-5 justify-center relative z-[2] items-center">
+        <div key={index} className={`flex gap-5 justify-center relative z-[2] ${index == processSteps.length - 1 ? "items-end" : index == 0 ? "items-start" : "items-center"}`}>
           <div>
             <div className="flex gap-2.5 justify-center items-center self-stretch px-1.5 rounded-sm bg-[#695B35] h-[55px] min-h-[55px] w-[55px]">
               <img
