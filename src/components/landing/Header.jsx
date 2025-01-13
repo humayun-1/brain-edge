@@ -13,11 +13,11 @@ export default function Header() {
       <div className="flex flex-col self-stretch my-auto">
         <div className="hidden lg:flex flex-wrap lg:gap-10 gap-4 items-center justify-end max-lg:max-w-full">
           <nav className="flex gap-10 items-center self-stretch my-auto font-medium text-white/80">
-            <a href="#about" className="self-stretch my-auto hover:text-amber-300">About Us</a>
-            <a href="#services" className="self-stretch my-auto hover:text-amber-300">Services</a>
-            <a href="#testimonials" className="self-stretch my-auto hover:text-amber-300">Testimonials</a>
+            <a href="/#about" className="self-stretch my-auto hover:text-amber-300">About Us</a>
+            <a href="/#services" className="self-stretch my-auto hover:text-amber-300">Services</a>
+            <a href="/#testimonials" className="self-stretch my-auto hover:text-amber-300">Testimonials</a>
           </nav>
-          <a href="#contact">
+          <a href="/#contact">
             <button className="self-stretch px-7 py-3 my-auto font-bold text-amber-300 rounded-lg border-2 border-amber-300 border-solid max-lg:px-5 hover:bg-amber-300 hover:text-neutral-800">
               Contact Us
             </button>

@@ -13,7 +13,6 @@ export async function POST(req) {
   //   },
   // });
   const transporter = nodemailer.createTransport({
-    // host: "smpt.hostinger.com",
     host: "smtp.hostinger.com",
     port: 465,
     auth: {

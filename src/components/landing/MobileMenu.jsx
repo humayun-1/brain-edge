@@ -39,27 +39,27 @@ export default function MobileMenu() {
 
             <nav className="flex flex-col gap-6 items-center text-lg font-medium text-white/80">
               <a
-                href="#about"
+                href="/#about"
                 onClick={close}
                 className="py-2 w-full text-center hover:text-amber-300 transition-colors"
               >
                 About Us
               </a>
               <a
-                href="#services"
+                href="/#services"
                 onClick={close}
                 className="py-2 w-full text-center hover:text-amber-300 transition-colors"
               >
                 Services
               </a>
               <a
-                href="#testimonials"
+                href="/#testimonials"
                 onClick={close}
                 className="py-2 w-full text-center hover:text-amber-300 transition-colors"
               >
                 Testimonials
               </a>
-              <a href="#contact" onClick={close}>
+              <a href="/#contact" onClick={close}>
                 <button  className="w-full px-7 py-4 font-bold text-amber-300 rounded-lg border-2 border-amber-300 border-solid hover:bg-amber-300 hover:text-neutral-800 transition-colors">
                   Contact Us
                 </button>
